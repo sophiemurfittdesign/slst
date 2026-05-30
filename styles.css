@@ -995,9 +995,9 @@ button[type="submit"]:after,
 .sqs-gallery-design-autogrid .summary-metadata-item:after {
   display: none!important;
 }
-.sqs-gallery-design-autogrid .summary-metadata-item a,
-.sqs-gallery-design-autogrid a.blog-item-category,
-.sqs-gallery-design-autogrid .blog-author-name {
+body:not(.sqs-edit-mode-active) .sqs-gallery-design-autogrid .summary-metadata-item a,
+body:not(.sqs-edit-mode-active) .sqs-gallery-design-autogrid a.blog-item-category,
+body:not(.sqs-edit-mode-active) .sqs-gallery-design-autogrid .blog-author-name {
   pointer-events: none!important;
   cursor: default!important;
 }
