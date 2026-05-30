@@ -511,35 +511,6 @@ button[type="submit"]:after,
   font-family: var(--inter) !important;
   font-feature-settings: var(--inter-features);
 }
-.sqs-button-element--tertiary:not([type='submit']),
-.sqs-button-element--tertiary:not([type='submit']):before,
-.lightbox-handle.sqs-system-button.sqs-button-element--tertiary,
-.lightbox-handle.sqs-system-button.sqs-button-element--tertiary:before {
-  border-radius: 500px!important;
-  display: flex!important;
-  align-items: center!important;
-  justify-content: center!important;
-  text-align: center!important;
-  padding: unset!important;
-  height: 165px!important;
-  width: 165px!important;
-}
-@media screen and (max-width: 767px) {
-  .sqs-button-element--tertiary:not([type='submit']),
-  .sqs-button-element--tertiary:not([type='submit']):before,
-  .lightbox-handle.sqs-system-button.sqs-button-element--tertiary,
-  .lightbox-handle.sqs-system-button.sqs-button-element--tertiary:before {
-    font-size: 1rem!important;
-    height: 150px!important;
-    width: 150px!important;
-  }
-}
-/*Tertiary Container Radius*/
-.sqs-block-button-container--right[data-button-type*="tertiary"],
-.sqs-block-button-container--center[data-button-type*="tertiary"],
-.sqs-block-button-container--left[data-button-type*="tertiary"] {
-  border-radius: 500px!important;
-}
 /*Tertiary Flex Fix*/
 .tweak-global-animations-animation-type-flex.tertiary-button-style-solid .sqs-button-element--tertiary:not(input)::before {
   border-color: var(--secondary-color) !important;
