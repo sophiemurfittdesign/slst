@@ -2159,7 +2159,6 @@ section.vertical-alignment--bottom .content-wrapper {
     filter: invert(1);
   }
 }
-
 /*Summary Filters*/
 .filters {
   font-family: var(--inter), var(--body), sans-serif !important;
