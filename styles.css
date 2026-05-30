@@ -2873,29 +2873,6 @@ body.modal-lock {
     gap: var(--nav-gap);
   }
 }
-/*Vertical Lines Desktop Only*/
-@media screen and (min-width: 767px) {
-  .sqs-events-collection-list.events.events-list.events-stacked:after,
-  .sqs-events-collection-item.events.events-item:after,
-  [data-product-detail-layout="simple"]:after {
-    content: "";
-    position: absolute!important;
-    top: 0;
-    left: calc(var(--sqs-site-gutter) - 1px);
-    right: calc(var(--sqs-site-gutter) - 1px);
-    max-width: calc(var(--sqs-site-max-width) + 2px);
-    margin: 0 auto;
-    height: 100%!important;
-    pointer-events: none;
-    z-index: 0!important;
-    background-image: linear-gradient(to bottom, var(--vertical-line-color) 100%, transparent 0), linear-gradient(to bottom, var(--vertical-line-color) 50%, transparent 0), linear-gradient(to bottom, var(--vertical-line-color) 50%, transparent 0), linear-gradient(to bottom, var(--vertical-line-color) 50%, transparent 0), linear-gradient(to bottom, var(--vertical-line-color) 100%, transparent 0);
-    background-size: 1px 100%, 1px 8px, 1px 8px, 1px 8px, 1px 100%;
-    background-position: 0 0, 25% 0, 50% 0, 75% 0, 100% 0;
-    background-repeat: no-repeat, repeat-y, repeat-y, repeat-y, no-repeat;
-    mix-blend-mode: exclusion!important;
-    filter: invert(1);
-  }
-}
 /*Inset Sections Mobile + Tab*/
 .tweak-portfolio-grid-basic-height-custom .portfolio-grid-basic,
 .tweak-products-width-inset .products.collection-content-wrapper,
