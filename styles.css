@@ -2159,6 +2159,12 @@ section.vertical-alignment--bottom .content-wrapper {
     filter: invert(1);
   }
 }
+/*Archive Block*/
+body:not(.sqs-edit-mode-active) .sqs-block.archive-block.sqs-block-archive,
+body:not(.sqs-edit-mode-active) .sqs-block-website-component.sqs-block-archive {
+  display: none!important;
+}
+
 /*Summary Filters*/
 .filters {
   font-family: var(--inter), var(--body), sans-serif !important;
