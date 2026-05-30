@@ -2160,8 +2160,8 @@ section.vertical-alignment--bottom .content-wrapper {
   }
 }
 /*Hide Archive Block on live site only*/
-body:not(.sqs-edit-mode-active) .sqs-block.archive-block.sqs-block-archive,
-body:not(.sqs-edit-mode-active) .sqs-block-website-component.sqs-block-archive {
+body:not(.sqs-edit-mode-active):not(.sqs-seven-one.sqs-edit-mode-active) .sqs-block.archive-block.sqs-block-archive,
+body:not(.sqs-edit-mode-active):not(.sqs-seven-one.sqs-edit-mode-active) .sqs-block-website-component.sqs-block-archive {
   display: none!important;
 }
 /*Summary Filters*/
