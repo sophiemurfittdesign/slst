@@ -2779,7 +2779,6 @@ body.modal-lock {
   overflow: hidden;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-  font-size: 14px!important;
 }
 /*Event Meta*/
 .eventlist-meta {
@@ -2797,7 +2796,6 @@ body.modal-lock {
   width: 100%!important;
   min-height: 100px!important;
   overflow: hidden!important;
-  border-radius: var(--global-radius)!important;
 }
 @media screen and (max-width: 767px) {
   .eventlist-column-thumbnail {
@@ -2837,6 +2835,10 @@ body.modal-lock {
 .sqs-events-collection-item.events.events-item {
   padding-top: 20vh!important;
   min-height: 70vh;
+}
+/*Remove Pagination Date*/
+.events-item-pagination-date {
+  display: none!important;
 }
 /*Title Column*/
 @media screen and (min-width: 767px) {
