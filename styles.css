@@ -124,7 +124,7 @@ p a em {
 /*Arrow Links*/
 @media screen and (min-width: 767px) {
   p a em:after {
-    content: "→’" !important;
+    content: "→" !important;
     position: absolute;
     opacity: 0;
     transition: var(--trans);
@@ -147,7 +147,7 @@ p a em {
     font-weight: var(--body-weight) !important;
     font-feature-settings: var(--inter-features) !important;
     font-family: var(--inter) !important;
-    content: "→’";
+    content: "→";
     font-weight: 400!important;
     position: absolute;
     opacity: 0;
@@ -171,7 +171,7 @@ p a strong {
 p a strong:after,
 h3 a strong:after {
   font-family: var(--inter), var(--body), sans-serif !important;
-  content: "→’";
+  content: "→";
   padding-left: 2px;
   position: absolute;
   transition: var(--trans);
@@ -415,7 +415,7 @@ button[type="submit"],
 button[type="submit"]:after,
 .join-button:after,
 .course-item__next-lesson-button:after {
-  content: "→’";
+  content: "→";
   font-family: var(--inter) !important;
   font-feature-settings: var(--inter-features);
   line-height: 0!important;
