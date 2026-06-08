@@ -103,18 +103,6 @@ p a {
   text-decoration-thickness: 1px!important;
   text-underline-offset: 4px!important;
 }
-/*Remove Default Link Underline*/
-.sqs-block-html a,
-.image-title-wrapper a,
-.image-subtitle-wrapper a,
-.sqs-image-caption a,
-.image-caption a,
-.sqs-block-newsletter a,
-.list-item-content__description a,
-.list-section-title a,
-.header .header-nav-wrapper a {
-  text-decoration-line: none!important;
-}
 /*Add Arrow on Hover to Em Links*/
 p a em {
   line-height: 1.8;
