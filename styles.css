@@ -97,6 +97,18 @@ h3 {
     font-size: 19px!important;
   }
 }
+/*Remove Default Link Underline*/
+.sqs-block-html a,
+.image-title-wrapper a,
+.image-subtitle-wrapper a,
+.sqs-image-caption a,
+.image-caption a,
+.sqs-block-newsletter a,
+.list-item-content__description a,
+.list-section-title a,
+.header .header-nav-wrapper a {
+  text-decoration-line: none!important;
+}
 /*Add Underline on Hover*/
 p a {
   text-decoration: underline!important;
@@ -104,34 +116,34 @@ p a {
   text-underline-offset: 4px!important;
 }
 /*Add Arrow on Hover to Em Links*/
-p a em {
+p a {
   line-height: 1.8;
   position: relative;
   font-style: normal;
 }
 /*Arrow Links*/
 @media screen and (min-width: 767px) {
-  p a em:after {
+  p a:after {
     content: "→" !important;
     position: absolute;
     opacity: 0;
     transition: var(--trans);
   }
-  p a em:hover:after {
+  p a:hover:after {
     opacity: 1!important;
     margin-right: 30px!important;
     padding-left: 4px!important;
   }
 }
 /*Add Arrow on Hover to Em Links*/
-p a em {
+p a {
   line-height: 1.8 !important;
   position: relative;
   font-style: normal;
   font-weight: var(--body-weight) !important;
 }
 @media screen and (min-width: 767px) {
-  p a em:after {
+  p a:after {
     font-weight: var(--body-weight) !important;
     font-feature-settings: var(--inter-features) !important;
     font-family: var(--inter) !important;
@@ -142,29 +154,29 @@ p a em {
     transition: var(--trans);
     font-weight: 500;
   }
-  p a em:hover:after,
-  h3 a em:hover:after {
+  p a:hover:after,
+  h3 a:hover:after {
     opacity: 1;
     margin-right: 30px;
     padding-left: 4px;
   }
 }
 /*Link BOLD (Visible Arrow)*/
-p a strong {
+p a {
   line-height: 1.5 !important;
   position: relative;
   font-style: normal;
   font-weight: var(--body-weight) !important;
 }
-p a strong:after,
-h3 a strong:after {
+p a:after,
+h3 a:after {
   font-family: var(--inter), var(--body), sans-serif !important;
   content: "→";
   padding-left: 2px;
   position: absolute;
   transition: var(--trans);
 }
-p a strong:hover:after {
+p a:hover:after {
   padding-left: 6px;
 }
 /*H3 Links*/
