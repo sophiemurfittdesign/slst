@@ -98,7 +98,7 @@ h3 {
   }
 }
 /*Add Underline on Hover*/
-p a:hover {
+p a {
   text-decoration: underline!important;
   text-decoration-thickness: 1px!important;
   text-underline-offset: 4px!important;
